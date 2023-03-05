@@ -1,6 +1,6 @@
 export function NavBar() {
   return (
-    <nav className='sticky top-0 z-5 0w-screen h-[5rem] bg-red-500 flex flex-col items-center hover:shadow-lg hover:shadow-gray-700 rounded-b-none'>
+    <nav className='z-40 sticky top-0 z-5 0w-screen h-[5rem] bg-red-500 flex flex-col items-center hover:shadow-lg hover:shadow-gray-700 rounded-b-none'>
       <div className='text-3xl text-white hover:text-gray-100 flex justify-between m-auto font-bold'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
