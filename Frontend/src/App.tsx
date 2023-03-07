@@ -8,7 +8,7 @@ export default function Example() {
     return <CustomCard {...product}></CustomCard>
   })
   return (
-    <div className='min-h-screen scrollbar-hide'>
+    <div className='min-h-screen scrollbar-hide bg-slate-400'>
       <NavBar />
       <div className='container mx-auto px-3 overflow-scroll'>{cards}</div>
     </div>
